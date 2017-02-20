@@ -422,7 +422,8 @@ html, body {
 		}
 
 		#top2 div:nth-child(3) {
-			flex: 2.5;
+			flex: 3.5;
+
 
 		}
 
@@ -488,21 +489,14 @@ html, body {
 		}
 
 
-
-
-
-
-
-			/*End Mobile*/
-		}
+			
+	}
 
 
 
 		@media screen and (max-width: 740px) {
 			#top2 div:nth-child(3) i {
 				margin-left: 2vw;
-				font-size: 3vw;
-
 			}
 
 			#top2 div:nth-child(2) ul {
@@ -513,23 +507,22 @@ html, body {
 
 
 
-		@media screen and (max-height: 740px) {
+		@media screen and (max-width: 710px) and (max-height: 1330px) {
 			#top2 div:nth-child(2) ul {
-					flex-wrap: nowrap;
-					font-size: 0.5vw;
+					flex-wrap: wrap;
+					overflow: hidden;
 				}
 
 			#top2 {
 				height: 40vh;
 			}
+
 		}
-
-
 
 
 		
 
-
+/*End Mobile*/
 
 		
 		
