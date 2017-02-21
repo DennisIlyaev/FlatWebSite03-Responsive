@@ -488,41 +488,36 @@ html, body {
 			height: 25vh;
 		}
 
-
-			
+	
 	}
 
 
 
-		@media screen and (max-width: 740px) {
-			#top2 div:nth-child(3) i {
-				margin-left: 2vw;
-			}
-
-			#top2 div:nth-child(2) ul {
-				flex-wrap: nowrap;
-			}
-			
-		}
-
-
-
 		@media screen and (max-width: 710px) and (max-height: 1330px) {
+
+			#top2 div:nth-child(3) {
+				display: flex;
+				flex-wrap: wrap;
+
+			}
+
+
+
 			#top2 div:nth-child(2) ul {
 					flex-wrap: wrap;
-					overflow: hidden;
 				}
 
 			#top2 {
 				height: 40vh;
 			}
 
+			
+			
 		}
 
+			/*End Mobile*/
 
-		
 
-/*End Mobile*/
 
 		
 		
